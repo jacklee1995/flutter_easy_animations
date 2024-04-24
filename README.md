@@ -1,4 +1,4 @@
-# Easy Animations
+# Flutter Easy Animations
 
 [中文文档](https://github.com/jacklee1995/flutter_easy_animations/blob/master/README_CN.md)
 

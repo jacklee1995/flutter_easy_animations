@@ -1,4 +1,4 @@
-# Easy Animations
+# Flutter Easy Animations
 
 ## 特点
 
