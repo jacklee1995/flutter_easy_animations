@@ -157,7 +157,7 @@ class AnimateStyles {
         end: Offset.zero,
       ).animate(CurvedAnimation(
         parent: animation,
-        curve: Curves.elasticOut,
+        curve: Curves.easeInOut,
       )),
       child: child,
     );
@@ -174,7 +174,7 @@ class AnimateStyles {
         end: Offset.zero,
       ).animate(CurvedAnimation(
         parent: animation,
-        curve: Curves.elasticOut,
+        curve: Curves.easeInOut,
       )),
       child: child,
     );
@@ -191,7 +191,7 @@ class AnimateStyles {
         end: Offset.zero,
       ).animate(CurvedAnimation(
         parent: animation,
-        curve: Curves.elasticOut,
+        curve: Curves.easeInOut,
       )),
       child: child,
     );
@@ -208,7 +208,7 @@ class AnimateStyles {
         end: Offset.zero,
       ).animate(CurvedAnimation(
         parent: animation,
-        curve: Curves.elasticOut,
+        curve: Curves.easeInOut,
       )),
       child: child,
     );
@@ -1022,7 +1022,7 @@ class AnimateStyles {
   ) {
     return RotationTransition(
       turns: Tween<double>(begin: -0.25, end: 0.0).animate(
-        CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+        CurvedAnimation(parent: animation, curve: Curves.easeInOut),
       ),
       child: child,
     );
@@ -1036,7 +1036,7 @@ class AnimateStyles {
     return RotationTransition(
       alignment: Alignment.topLeft,
       turns: Tween<double>(begin: -0.25, end: 0.0).animate(
-        CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+        CurvedAnimation(parent: animation, curve: Curves.easeInOut),
       ),
       child: child,
     );
@@ -1050,7 +1050,7 @@ class AnimateStyles {
     return RotationTransition(
       alignment: Alignment.topRight,
       turns: Tween<double>(begin: 0.25, end: 0.0).animate(
-        CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+        CurvedAnimation(parent: animation, curve: Curves.easeInOut),
       ),
       child: child,
     );
@@ -1064,7 +1064,7 @@ class AnimateStyles {
     return RotationTransition(
       alignment: Alignment.bottomLeft,
       turns: Tween<double>(begin: 0.25, end: 0.0).animate(
-        CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+        CurvedAnimation(parent: animation, curve: Curves.easeInOut),
       ),
       child: child,
     );
@@ -1078,7 +1078,7 @@ class AnimateStyles {
     return RotationTransition(
       alignment: Alignment.bottomRight,
       turns: Tween<double>(begin: -0.25, end: 0.0).animate(
-        CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+        CurvedAnimation(parent: animation, curve: Curves.easeInOut),
       ),
       child: child,
     );
@@ -1302,7 +1302,7 @@ class AnimateStyles {
   ) {
     return ScaleTransition(
       scale: Tween<double>(begin: 0.0, end: 1.0).animate(
-        CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+        CurvedAnimation(parent: animation, curve: Curves.easeInOut),
       ),
       child: child,
     );
@@ -1315,14 +1315,14 @@ class AnimateStyles {
   ) {
     return ScaleTransition(
       scale: Tween<double>(begin: 0.0, end: 1.0).animate(
-        CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+        CurvedAnimation(parent: animation, curve: Curves.easeInOut),
       ),
       child: SlideTransition(
         position: Tween<Offset>(
           begin: const Offset(0.0, -1.0),
           end: Offset.zero,
         ).animate(
-          CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+          CurvedAnimation(parent: animation, curve: Curves.easeInOut),
         ),
         child: child,
       ),
@@ -1336,14 +1336,14 @@ class AnimateStyles {
   ) {
     return ScaleTransition(
       scale: Tween<double>(begin: 0.0, end: 1.0).animate(
-        CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+        CurvedAnimation(parent: animation, curve: Curves.easeInOut),
       ),
       child: SlideTransition(
         position: Tween<Offset>(
           begin: const Offset(-1.0, 0.0),
           end: Offset.zero,
         ).animate(
-          CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+          CurvedAnimation(parent: animation, curve: Curves.easeInOut),
         ),
         child: child,
       ),
@@ -1357,14 +1357,14 @@ class AnimateStyles {
   ) {
     return ScaleTransition(
       scale: Tween<double>(begin: 0.0, end: 1.0).animate(
-        CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+        CurvedAnimation(parent: animation, curve: Curves.easeInOut),
       ),
       child: SlideTransition(
         position: Tween<Offset>(
           begin: const Offset(1.0, 0.0),
           end: Offset.zero,
         ).animate(
-          CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+          CurvedAnimation(parent: animation, curve: Curves.easeInOut),
         ),
         child: child,
       ),
@@ -1378,13 +1378,13 @@ class AnimateStyles {
   ) {
     return ScaleTransition(
       scale: Tween<double>(begin: 0.0, end: 1.0).animate(
-        CurvedAnimation(parent: animation, curve: Curves.elasticOut),
+        CurvedAnimation(parent: animation, curve: Curves.easeInOut),
       ),
       child: SlideTransition(
         position: Tween<Offset>(
           begin: const Offset(0.0, 1.0),
           end: Offset.zero,
-        ).animate(CurvedAnimation(parent: animation, curve: Curves.elasticOut)),
+        ).animate(CurvedAnimation(parent: animation, curve: Curves.easeInOut)),
         child: child,
       ),
     );
