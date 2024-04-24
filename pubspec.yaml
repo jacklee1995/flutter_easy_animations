@@ -21,9 +21,9 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 screenshots:
-  - description: "Adaptive dialog image"
+  - description: "EasyAnimations Logo."
     path: assets/easy_animations.png
-  - description: "example"
+  - description: "example for AnimateStyles class."
     path: assets/example_easyanimationanimatestylesvVU5ImxxqS.gif
 
 
