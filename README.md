@@ -124,7 +124,7 @@ The AnimateStyles class provides a series of static methods, each returning a sp
 | `zoomOutUp` | `AnimatedBuilder` | Creates a zooming out animation that also slides up. |
 
 
-![alt text](assets/example_vVU5ImxxqS.gif)
+![alt text](assets/example_easyanimationanimatestylesvVU5ImxxqS.gif)
 
 #### Importing the Library
 

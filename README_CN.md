@@ -125,7 +125,7 @@ AnimateStyles 类提供了一系列静态方法，每个方法都返回一个特
 | `zoomOutUp` | `AnimatedBuilder` | 创建一个向上缩放并滑出的动画。 |
 
 
-![alt text](assets/example_vVU5ImxxqS.gif)
+![alt text](assets/example_easyanimationanimatestylesvVU5ImxxqS.gif)
 
 #### 引入库
 
