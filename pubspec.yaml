@@ -1,0 +1,31 @@
+name: easy_animations
+description: "This library provides a variety of convenient Flutter animation effects."
+version: 0.0.1
+homepage: https://flutter-online.top
+repository: https://github.com/jacklee1995/flutter_easy_animations
+auth:
+  name: Jcak Lee
+  email: 291148484@163.com
+  home: http://thispage.tech
+environment:
+  sdk: '>=2.8.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+screenshots:
+  - description: "Adaptive dialog image"
+    path: assets/easy_animations.png
+  - description: "example"
+    path: assets/example_vVU5ImxxqS.gif
+
+
+flutter:
+
