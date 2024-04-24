@@ -1,5 +1,7 @@
 # Easy Animations
 
+[中文文档](https://github.com/jacklee1995/flutter_easy_animations/blob/master/README_CN.md)
+
 ## Features
 
 This library offers a variety of pre-built animation methods. These animations cover effects such as bouncing, flashing, pulsing, rubber banding, shaking, swinging, and more, allowing you to easily integrate captivating animations into your Flutter applications. More features are on the way, so stay tuned!
