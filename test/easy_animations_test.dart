@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/material.dart';
-import 'package:easy_animations/easy_animations.dart';
+import 'package:flutter_easy_animations/flutter_easy_animations.dart';
 
 void main() {
   testWidgets('bounce animation test', (WidgetTester tester) async {

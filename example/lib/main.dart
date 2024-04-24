@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:easy_animations/easy_animations.dart';
+import 'package:flutter_easy_animations/flutter_easy_animations.dart';
 
 void main() {
   runApp(const MyApp());
