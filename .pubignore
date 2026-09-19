@@ -1,0 +1,15 @@
+.dart_tool/
+build/
+coverage/
+.fvm/
+.idea/
+/pubspec.lock
+**/doc/api/
+*.iml
+*.log
+.DS_Store
+
+.fvmrc
+.github/
+
+assets/example_easyanimationanimatestylesvVU5ImxxqS.gif

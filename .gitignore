@@ -5,9 +5,11 @@
 *.swp
 .DS_Store
 .atom/
+.build/
 .buildlog/
 .history
 .svn/
+.swiftpm/
 migrate_working_dir/
 
 # IntelliJ related
@@ -27,3 +29,8 @@ migrate_working_dir/
 **/doc/api/
 .dart_tool/
 build/
+coverage/
+
+# FVM (Flutter Version Management)
+# Only .fvmrc should be committed; .fvm/ holds machine-specific SDK symlinks.
+.fvm/
